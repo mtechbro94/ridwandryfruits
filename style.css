@@ -358,6 +358,7 @@ nav {
   position: relative;
   height: calc(85vh - var(--header-height));
   min-height: 500px;
+  background-color: var(--walnut-brown-dark);
   background-image: linear-gradient(rgba(46, 32, 27, 0.4), rgba(46, 32, 27, 0.6)), url('assets/kashmir_bg.png');
   background-size: cover;
   background-position: center;

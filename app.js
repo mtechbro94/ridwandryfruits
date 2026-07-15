@@ -25,6 +25,16 @@ document.addEventListener("DOMContentLoaded", () => {
 // --- ROUTER SYSTEM ---
 function initRouter() {
   const handleRoute = () => {
+    // Automatically close any open modals or cart drawers on route navigation
+    closeModal();
+    const cartDrawer = document.getElementById("cart-drawer");
+    const cartOverlay = document.getElementById("cart-overlay");
+    if (cartDrawer && cartOverlay) {
+      cartDrawer.classList.remove("open");
+      cartOverlay.style.display = "none";
+    }
+    document.body.style.overflow = "auto";
+
     let hash = window.location.hash || "#home";
     
     // Normalize hash
