@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Buy 100% pure Kashmiri Saffron, sweet Almond Giri, and premium Walnut kernels online. Direct from Pulwama, J&K. Authentic taste, premium quality, handpicked with care.">
+  <meta name="keywords" content="buy Kashmiri saffron online, pure saffron India, kashmiri almond giri online, walnut kernels Kashmir, Ridwan DryFruits Pulwama, organic dry fruits">
+  <meta name="author" content="Ridwan DryFruits">
+  <title>Ridwan DryFruits | Premium Kashmiri Dry Fruits & Pure Saffron</title>
+  
+  <!-- Favicon placeholder (can be customized) -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍁</text></svg>">
+
+  <!-- FontAwesome for Premium Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- --- HEADER / NAVIGATION --- -->
+  <header>
+    <a href="#home" class="logo">
+      <div class="logo-icon">R</div>
+      <div class="logo-text">
+        <div class="logo-name">Ridwan DryFruits</div>
+        <div class="logo-tag">KASHMIRI NATURAL</div>
+      </div>
+    </a>
+    
+    <nav id="main-nav">
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#shop">Shop Products</a>
+        <a href="#purity">Saffron Purity</a>
+        <a href="#about">Our Story</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </nav>
+    
+    <div class="header-actions">
+      <button class="cart-toggle-btn" id="cart-toggle" aria-label="Open Cart">
+        <i class="fa-solid fa-shopping-cart"></i>
+        <span>Cart</span>
+        <span class="cart-badge" id="cart-badge" style="display: none;">0</span>
+      </button>
+      
+      <button class="menu-btn" id="menu-toggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- --- VIEW SECTION: HOME --- -->
+  <main>
+    <section id="home-view" class="view-section active">
+      <!-- Hero -->
+      <div class="hero">
+        <div class="hero-content">
+          <p class="hero-subtitle">From the Heart of Kashmir</p>
+          <h1>Kashmiri Dry Fruit — Premium Kashmiri Products</h1>
+          <p class="hero-desc">Sourced directly from the lush orchards and saffron fields of Pulwama. Pure Saffron, Almond Giri & Walnut Giri — packed fresh for health and vitality.</p>
+          <div class="hero-actions">
+            <a href="#shop" class="btn btn-primary">Browse Shop</a>
+            <a href="#purity" class="btn btn-outline-white">Saffron Purity Guide</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Trust Strip -->
+      <div class="trust-strip">
+        <div class="trust-wrapper">
+          <div class="trust-item">
+            <div class="trust-icon"><i class="fa-solid fa-seedling"></i></div>
+            <div class="trust-text">
+              <h5>100% Pure & Organic</h5>
+              <p>Direct from local Kashmiri farms</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div class="trust-text">
+              <h5>Handpicked Selection</h5>
+              <p>Rigorous sorting & grading</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon"><i class="fa-solid fa-box-open"></i></div>
+            <div class="trust-text">
+              <h5>Airtight Protection</h5>
+              <p>Retains aroma and freshness</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+            <div class="trust-text">
+              <h5>Pan-India Delivery</h5>
+              <p>Fast shipping with tracking</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Featured Products -->
+      <div class="home-section">
+        <div class="featured-header">
+          <div class="section-title" style="text-align: left; margin-bottom: 0;">
+            <span class="section-subtitle" style="text-align: left;">Customer Favorites</span>
+            <h2>Our Signature Collection</h2>
+          </div>
+          <a href="#shop" class="btn btn-secondary">View All Products</a>
+        </div>
+        <div class="products-grid" id="featured-products-grid">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- Saffron Purity Teaser -->
+      <div class="home-section" style="background-color: rgba(229, 142, 38, 0.03); border-radius: var(--border-radius-lg); margin-top: 2rem;">
+        <div class="saffron-trust-teaser">
+          <div class="teaser-content">
+            <span class="teaser-badge">Saffron Quality Guard</span>
+            <h2>Is your Saffron 100% pure?</h2>
+            <p>Saffron is the world's most valuable spice, making it a target for adulteration. Before you buy, learn how to distinguish genuine Kashmiri saffron threads from dyed corn silk or low-grade imports.</p>
+            
+            <div class="purity-checkpoints">
+              <div class="checkpoint-item">
+                <i class="fa-solid fa-circle-check checkpoint-icon"></i>
+                <p>Pure Saffron never dissolves immediately</p>
+              </div>
+              <div class="checkpoint-item">
+                <i class="fa-solid fa-circle-check checkpoint-icon"></i>
+                <p>Releases a bright golden-yellow color (not red)</p>
+              </div>
+              <div class="checkpoint-item">
+                <i class="fa-solid fa-circle-check checkpoint-icon"></i>
+                <p>Retains its deep red shape in warm water</p>
+              </div>
+              <div class="checkpoint-item">
+                <i class="fa-solid fa-circle-check checkpoint-icon"></i>
+                <p>Aroma is sweet but the taste is bitter</p>
+              </div>
+            </div>
+            
+            <a href="#purity" class="btn btn-primary">Try Interactive Purity Test</a>
+          </div>
+          <div class="teaser-image">
+            <img src="assets/saffron.png" alt="Saffron Purity Verification">
+          </div>
+        </div>
+      </div>
+
+      <!-- Reviews Section -->
+      <div class="home-section reviews-section">
+        <span class="section-subtitle">Real Reviews</span>
+        <h2 class="section-title">What Our Customers Say</h2>
+        
+        <div class="reviews-carousel">
+          <div class="review-card">
+            <div>
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"The Saffron is absolutely premium grade. I did the water float test as suggested, and it slowly released a gorgeous golden glow. The smell is incredibly rich. Order arrived in Bangalore within 4 days."</p>
+            </div>
+            <div class="review-user">
+              <div class="user-avatar">AP</div>
+              <div class="user-info">
+                <h6>Aravind Prasad</h6>
+                <p>Verified Buyer • Bangalore</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div>
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Kashmiri almonds are so sweet compared to California ones. These almond giris are loaded with natural oil. You can taste the purity instantly. Will order again next week."</p>
+            </div>
+            <div class="review-user">
+              <div class="user-avatar">SR</div>
+              <div class="user-info">
+                <h6>Sunita Rao</h6>
+                <p>Verified Buyer • Mumbai</p>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div>
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Walnut Giri is snowy white, dry, and super crunchy. No bitter taste. Ridwan Sir's collection is truly authentic Kashmiri dry fruits. Excellent service on WhatsApp!"</p>
+            </div>
+            <div class="review-user">
+              <div class="user-avatar">KM</div>
+              <div class="user-info">
+                <h6>Kabir Malik</h6>
+                <p>Verified Buyer • Delhi NCR</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story Teaser -->
+      <div class="home-section">
+        <div class="story-block">
+          <div class="story-img-container">
+            <img src="assets/kashmir_bg.png" alt="Kashmiri valley sourcing" class="story-img-primary">
+            <img src="assets/walnuts.png" alt="Fresh Walnut Giri" class="story-img-secondary">
+          </div>
+          <div class="story-content">
+            <span class="section-subtitle" style="text-align: left;">Our Sourcing Promise</span>
+            <h2>Straight from Pulwama Orchards</h2>
+            <p>At Ridwan DryFruits, we don't believe in middle-men. Located at Pandit Traders Circle Road in Pulwama, we source almonds and walnuts directly from family-run mountain orchards. Our saffron is harvested during autumn mornings directly from Pampore fields, ensuring you get the absolute fresh harvest.</p>
+            <p>Our business has been built on trust, local pride, and a simple commitment to Kashmiri purity. Read our complete story to learn about how our nuts are processed and sorted.</p>
+            <a href="#about" class="btn btn-secondary">Read Our Full Story</a>
+            
+            <div class="story-signature">
+              <div class="signature-pic">RS</div>
+              <div class="signature-text">
+                <h6>Ridwan Sir</h6>
+                <p>Founder, Ridwan DryFruits Pulwama</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- VIEW SECTION: SHOP --- -->
+    <section id="shop-view" class="view-section">
+      <span class="section-subtitle">Premium Selection</span>
+      <h2 class="section-title">Kashmiri Harvest Shop</h2>
+      
+      <div class="shop-container">
+        <!-- Sidebar filters -->
+        <aside class="shop-sidebar">
+          <div class="filter-group">
+            <h5>Categories</h5>
+            <div class="category-filters">
+              <button class="filter-btn active" data-category="all">All Products</button>
+              <button class="filter-btn" data-category="saffron">Pure Saffron</button>
+              <button class="filter-btn" data-category="nuts">Almonds & Walnuts</button>
+              <button class="filter-btn" data-category="combos">Gift Boxes / Combos</button>
+            </div>
+          </div>
+          
+          <div class="filter-group">
+            <h5>Search</h5>
+            <div class="search-bar">
+              <i class="fa-solid fa-magnifying-glass" style="color: var(--text-muted);"></i>
+              <input type="text" id="search-input" placeholder="Search dry fruits...">
+            </div>
+          </div>
+        </aside>
+        
+        <!-- Main items list -->
+        <div class="shop-main-content">
+          <div class="shop-toolbar">
+            <div class="results-count" id="shop-results-count">Showing 0 products</div>
+            <div class="sort-selector">
+              <label for="sort-products" style="font-size: 0.85rem; font-weight: 600; margin-right: 8px;">Sort By:</label>
+              <select id="sort-products">
+                <option value="featured">Featured Items</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="alphabetical">Alphabetical A-Z</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="products-grid" id="shop-products-grid">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- VIEW SECTION: SAFFRON PURITY --- -->
+    <section id="purity-view" class="view-section">
+      <div class="purity-header">
+        <span class="section-subtitle">Education & Trust</span>
+        <h2>Checking Saffron Authenticity</h2>
+        <p>Because Saffron (Kesar) is high-value, it is frequently blended with cheap materials or dyed red. At Ridwan DryFruits, we encourage our clients to test their saffron. Here is how pure Kashmiri Saffron (Mongra) behaves compared to adulterated alternatives.</p>
+      </div>
+      
+      <div class="purity-layout">
+        <!-- Text details -->
+        <div class="purity-guide-cards">
+          <div class="purity-card">
+            <div class="purity-card-icon"><i class="fa-solid fa-hourglass-half"></i></div>
+            <div class="purity-card-content">
+              <h4>1. The Color Release Speed</h4>
+              <p>Fake saffron is coated in artificial water-soluble red dyes that bleed into the water instantly. Pure saffron threads take time to release crocin. The yellow tint will start spreading slowly over 5 to 15 minutes, eventually yielding a golden, sunshine-yellow liquid.</p>
+            </div>
+          </div>
+          
+          <div class="purity-card">
+            <div class="purity-card-icon"><i class="fa-solid fa-droplet"></i></div>
+            <div class="purity-card-content">
+              <h4>2. The Water Float Test</h4>
+              <p>Pure Kashmiri Mongra threads are light and strong. When dropped in cold or warm water, they remain floating near the surface. Fake or weighted threads (coated in sugar syrup or mineral oil) sink quickly to the bottom of the glass.</p>
+            </div>
+          </div>
+          
+          <div class="purity-card">
+            <div class="purity-card-icon red"><i class="fa-solid fa-vial-circle-check"></i></div>
+            <div class="purity-card-content">
+              <h4>3. Thread Quality After Soaking</h4>
+              <p>Remove a thread from the water after 20 minutes. A pure thread remains intact, holding its bright crimson shade. Fake threads are fragile, disintegrate instantly, and lose their red color completely, leaving a pale or white string.</p>
+            </div>
+          </div>
+          
+          <div class="purity-card">
+            <div class="purity-card-icon"><i class="fa-solid fa-tongue"></i></div>
+            <div class="purity-card-content">
+              <h4>4. Smell vs Taste Rule</h4>
+              <p>Pure saffron has a sweet, honey-like aroma, but it tastes strictly bitter. If the saffron tastes sweet, it has been treated with honey, sugar syrup, or glycerine to artificially increase its weight.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Interactive simulation widget -->
+        <div class="purity-interactive">
+          <h3>Try the Water Test Simulation</h3>
+          <p>Simulate dropping saffron threads in warm water and observe the difference.</p>
+          
+          <div class="sim-container">
+            <!-- Beaker 1: Pure Saffron -->
+            <div class="beaker-wrapper">
+              <div class="beaker-label">Pure Mongra Saffron</div>
+              <div class="beaker" id="beaker-pure">
+                <div class="beaker-fluid-pure"></div>
+                <div class="beaker-threads">
+                  <div class="thread thread-1"></div>
+                  <div class="thread thread-2"></div>
+                  <div class="thread thread-3"></div>
+                </div>
+              </div>
+              <span class="pure-status" id="pure-status-lbl">✓ Floats & Releases Golden Yellow</span>
+            </div>
+            
+            <!-- Beaker 2: Fake Saffron -->
+            <div class="beaker-wrapper">
+              <div class="beaker-label">Adulterated Saffron</div>
+              <div class="beaker" id="beaker-fake">
+                <div class="beaker-fluid-fake"></div>
+                <div class="beaker-threads">
+                  <div class="thread thread-1"></div>
+                  <div class="thread thread-2"></div>
+                  <div class="thread thread-3"></div>
+                </div>
+              </div>
+              <span class="fake-status" id="fake-status-lbl">✗ Sinks & Bleeds Dark Red Dye</span>
+            </div>
+          </div>
+          
+          <div class="sim-controls">
+            <button class="btn btn-primary" id="run-purity-sim">Start Purity Test Simulation</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- VIEW SECTION: ABOUT --- -->
+    <section id="about-view" class="view-section">
+      <div class="about-grid">
+        <div class="about-img">
+          <img src="assets/kashmir_bg.png" alt="Kashmiri Pulwama Valley Landscape">
+        </div>
+        <div class="about-info">
+          <span class="section-subtitle" style="text-align: left;">Saffron & Nut Pioneers</span>
+          <h2>Our Legacy and Location</h2>
+          <p>For generations, the Pulwama and Pampore regions in Kashmir have been home to some of the richest agricultural treasures on Earth. Known for its perfect volcanic soils and chilly weather, this area produces dry fruits that are unmatched in aroma, taste, and oil concentrations.</p>
+          <p><strong>Ridwan DryFruits</strong> (led by Ridwan Sir) is located at Pandit Traders Circle Road, Tahab Crossing in Pulwama, Jammu & Kashmir. What began as a simple service providing direct dry fruits to visitors has evolved into a dedicated store sending premium dry fruits all over India.</p>
+          <p>Our business philosophy is simple: keep packaging minimal and quality high. We handpick, sort, shell, and pack all walnuts and almonds locally. Our saffron undergoes rigorous dry-vial packing to keep external moisture completely sealed away.</p>
+        </div>
+      </div>
+      
+      <!-- Sourcing & values -->
+      <div class="about-highlights">
+        <div class="highlight-box">
+          <i class="fa-solid fa-truck" style="font-size: 2.2rem; color: var(--saffron-gold); margin-bottom: 1rem;"></i>
+          <h3>Direct Sourcing</h3>
+          <p>We work directly with farmers in Pulwama, bypassing brokers to ensure higher earnings for local families and fresh harvests for you.</p>
+        </div>
+        <div class="highlight-box">
+          <i class="fa-solid fa-award" style="font-size: 2.2rem; color: var(--saffron-gold); margin-bottom: 1rem;"></i>
+          <h3>Mongra Grade-A+ Saffron</h3>
+          <p>We only sell Mongra—the thickest, darkest red saffron stigma threads, which contains maximum active crocin levels.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- VIEW SECTION: CONTACT --- -->
+    <section id="contact-view" class="view-section">
+      <span class="section-subtitle">Reach Out To Us</span>
+      <h2 class="section-title">Get In Touch with Ridwan Sir</h2>
+      
+      <div class="contact-grid">
+        <!-- Details & Location Info -->
+        <div class="contact-details">
+          <div class="contact-info-block">
+            <h3>Visit Our Store in Pulwama</h3>
+            <p style="color: var(--text-muted); margin-bottom: 2rem;">If you are traveling through Kashmir, please drop by our shop to enjoy some fresh Kahwa tea and sample our almonds and walnuts.</p>
+            
+            <a href="https://maps.google.com/?q=Tahab+Crossing+Pulwama+Kashmir" target="_blank" class="contact-item-link">
+              <div class="contact-item-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div class="contact-item-text">
+                <h6>Shop Address</h6>
+                <p>Pandit Traders Circle Road, Tahab Crossing,<br>Pulwama, Jammu & Kashmir – 192301</p>
+              </div>
+            </a>
+            
+            <a href="tel:+919906999999" class="contact-item-link">
+              <div class="contact-item-icon"><i class="fa-solid fa-phone-volume"></i></div>
+              <div class="contact-item-text">
+                <h6>Phone Number</h6>
+                <p>+91 99069 99999 (Call for wholesale & retail queries)</p>
+              </div>
+            </a>
+            
+            <a href="https://wa.me/919906999999" target="_blank" class="contact-item-link">
+              <div class="contact-item-icon" style="background-color: #e8fcf0; color: #25d366;"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="contact-item-text">
+                <h6>WhatsApp Chat</h6>
+                <p>Direct WhatsApp contact with Ridwan Sir</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="contact-map-wrapper">
+            <div class="map-placeholder">
+              <div class="map-placeholder-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <h5>Map Location</h5>
+              <p>Tahab Crossing, Pulwama, J&K</p>
+              <a href="https://maps.google.com/?q=Tahab+Crossing+Pulwama+Kashmir" target="_blank" class="btn btn-secondary" style="margin-top: 15px; padding: 8px 16px; font-size: 0.85rem;">Open in Google Maps</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Message Form -->
+        <div class="contact-form-card">
+          <h3>Send Us a Query</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem;">Interested in bulk ordering for weddings or business gifts? Write your query below, and we will get back to you with custom pricing.</p>
+          
+          <form onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent. Ridwan Sir will contact you shortly.'); this.reset();">
+            <div class="form-group">
+              <label for="contact-name">Your Full Name</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="e.g. Rajesh Kumar" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-phone">Phone Number</label>
+              <input type="tel" id="contact-phone" class="form-control" placeholder="e.g. +91 98765 43210" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-msg">Message / Custom Order Requirements</label>
+              <textarea id="contact-msg" class="form-control" placeholder="Specify which products and weights you require, or details about wedding/corporate packaging." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- --- PRODUCT DETAIL MODAL --- -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close modal">&times;</button>
+      
+      <div class="modal-gallery">
+        <img src="" id="modal-product-image" alt="Product Image">
+      </div>
+      
+      <div class="modal-info-panel">
+        <h2 class="modal-product-title" id="modal-title">Product Name</h2>
+        <div class="modal-product-tagline" id="modal-tagline">Tagline</div>
+        
+        <p class="modal-product-desc" id="modal-desc">Detailed Description</p>
+        
+        <div id="modal-trust-banner-container">
+          <!-- Populated if saffron -->
+        </div>
+        
+        <h4 style="margin-bottom: 10px; font-family: var(--font-body); font-weight: 600;">Specifications</h4>
+        <table class="modal-specs-table">
+          <tbody id="modal-specs-body">
+            <!-- Populated dynamically -->
+          </tbody>
+        </table>
+        
+        <div class="modal-price-action">
+          <div class="modal-action-row">
+            <div class="product-selector-group" style="margin-bottom: 0; width: 60%;">
+              <label for="modal-weight-selector">Choose Size</label>
+              <select id="modal-weight-selector" class="weight-selector-dropdown">
+                <!-- Dropdown items -->
+              </select>
+            </div>
+            
+            <div class="modal-price-box">
+              <span class="price-label">Total Price</span>
+              <span class="price-value" id="modal-price-value">₹0</span>
+            </div>
+          </div>
+          
+          <div class="modal-action-row" style="margin-top: 10px;">
+            <span style="font-size: 0.85rem; font-weight: 600; display: flex; align-items: center; gap: 6px;" id="modal-stock-text">
+              <!-- Stock status text -->
+            </span>
+            <button class="btn btn-primary" id="modal-add-to-cart-btn" style="padding: 12px 30px;">
+              Add to Shopping Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --- CART DRAWER PANEL --- -->
+  <div class="cart-drawer-overlay" id="cart-overlay"></div>
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-drawer-header">
+      <div class="cart-drawer-title">
+        <i class="fa-solid fa-shopping-basket" style="color: var(--primary-green);"></i>
+        <span>Your Shopping Cart</span>
+      </div>
+      <button class="cart-close-btn" id="cart-close" aria-label="Close Cart">&times;</button>
+    </div>
+    
+    <div class="cart-body" id="cart-body">
+      <!-- Dynamic list of items -->
+      <div id="cart-items-container">
+        <!-- Rendered dynamically -->
+      </div>
+      
+      <!-- Checkout Form (Slide down when proceed clicked) -->
+      <div class="checkout-form-container" id="checkout-form">
+        <h4 style="font-family: var(--font-body); font-weight: 700; color: var(--walnut-brown-dark);">Delivery Information</h4>
+        
+        <form id="order-details-form">
+          <div class="form-group" style="margin-bottom: 1rem;">
+            <label for="cust-name">Full Name</label>
+            <input type="text" id="cust-name" class="form-control" placeholder="e.g. Rajesh Kumar" required>
+          </div>
+          
+          <div class="form-group" style="margin-bottom: 1rem;">
+            <label for="cust-phone">Phone Number (WhatsApp Preferred)</label>
+            <input type="tel" id="cust-phone" class="form-control" placeholder="e.g. +91 98765 43210" required>
+          </div>
+          
+          <div class="form-group" style="margin-bottom: 1.25rem;">
+            <label for="cust-address">Full Delivery Address (with Pincode)</label>
+            <textarea id="cust-address" class="form-control" style="min-height: 80px;" placeholder="Full street address, landmark, city, state, and 6-digit pin code." required></textarea>
+          </div>
+          
+          <div class="form-group" style="margin-bottom: 1rem;">
+            <label>Select Payment Method</label>
+            <input type="hidden" id="selected-payment-method" value="whatsapp">
+            
+            <div class="payment-options-grid">
+              <div class="pay-option-card selected" data-method="whatsapp">
+                <div class="pay-option-icon"><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i></div>
+                <div class="pay-option-text">WhatsApp Order</div>
+              </div>
+              <div class="pay-option-card" data-method="razorpay">
+                <div class="pay-option-icon"><i class="fa-solid fa-credit-card" style="color: #0c2b64;"></i></div>
+                <div class="pay-option-text">Razorpay Online</div>
+              </div>
+              <div class="pay-option-card" data-method="cod" style="grid-column: span 2;">
+                <div class="pay-option-icon"><i class="fa-solid fa-hand-holding-dollar" style="color: var(--primary-green);"></i></div>
+                <div class="pay-option-text">Cash on Delivery (COD)</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="checkout-actions">
+            <button type="submit" class="btn btn-primary" id="submit-order-btn" style="width: 100%; background-color: #25d366;">
+              <i class="fa-brands fa-whatsapp"></i> Send Order via WhatsApp
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Totals and checkout button -->
+    <div class="cart-checkout-section" id="cart-checkout-section">
+      <div class="cart-totals">
+        <div class="totals-row">
+          <span>Subtotal:</span>
+          <span id="cart-subtotal">₹0</span>
+        </div>
+        <div class="totals-row">
+          <span>Delivery Charge:</span>
+          <span id="cart-delivery">₹0</span>
+        </div>
+        <div class="totals-row grand-total">
+          <span>Grand Total:</span>
+          <span id="cart-grand-total">₹0</span>
+        </div>
+      </div>
+      
+      <button class="btn btn-primary checkout-toggle-btn" id="checkout-toggle-btn">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <!-- --- RAZORPAY MODAL SIMULATOR --- -->
+  <div class="rpay-overlay" id="rpay-overlay">
+    <div class="rpay-modal">
+      <div class="rpay-header">
+        <div class="rpay-logo-area">
+          <span style="font-size: 1.2rem;">💳</span>
+          <div>
+            <h5 style="color: white; font-family: -apple-system; font-size: 0.9rem; font-weight: 700; margin:0; line-height: 1.1;">Razorpay Secure</h5>
+            <p style="font-size: 0.6rem; opacity: 0.8; margin:0;">Ridwan DryFruits Checkout</p>
+          </div>
+        </div>
+        <div class="rpay-amount-box">
+          <div class="lbl">PAYING</div>
+          <div class="val" id="rpay-total-val">₹0</div>
+        </div>
+      </div>
+      
+      <div id="rpay-modal-body">
+        <!-- Injected via app.js -->
+      </div>
+      
+      <div class="rpay-footer">
+        <span class="rpay-badge">✓ SECURE</span>
+        <span>Razorpay trusted by 10M+ Indian businesses. <a href="#" onclick="event.preventDefault(); closeRpayMock();" style="color: #3b82f6; font-weight: 600; text-decoration: underline;">Cancel</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- --- WHATSAPP FLOATING BUTTON --- -->
+  <a href="https://wa.me/919906999999?text=Hello!%20I%20am%20interested%20in%20your%20Kashmiri%20dry%20fruits." target="_blank" class="whatsapp-floating" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- --- FOOTER --- -->
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer-col brand">
+        <h3>Ridwan DryFruits</h3>
+        <p>Premium, high-nutrition dry fruits and saffron sourced from farmers in Pulwama & Pampore, Jammu & Kashmir. Freshly packed, pure and rich in natural oils.</p>
+        <div class="footer-socials">
+          <a href="#" class="btn-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="btn-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/919906999999" class="btn-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <div class="footer-links">
+          <a href="#home">Home Page</a>
+          <a href="#shop">Shop Products</a>
+          <a href="#purity">Saffron Purity Guide</a>
+          <a href="#about">Our Story</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h5>Our Products</h5>
+        <div class="footer-links">
+          <a href="#shop" onclick="activeCategory='saffron'; renderProducts();">Mongra Saffron</a>
+          <a href="#shop" onclick="activeCategory='nuts'; renderProducts();">Almond Giri</a>
+          <a href="#shop" onclick="activeCategory='nuts'; renderProducts();">Walnut Giri</a>
+          <a href="#shop" onclick="activeCategory='combos'; renderProducts();">Gift Combos</a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h5>Contact Details</h5>
+        <div class="footer-address">
+          <p><strong>Shop Location:</strong><br>
+          Pandit Traders Circle Road,<br>
+          Tahab Crossing, Pulwama,<br>
+          Jammu & Kashmir – 192301</p>
+          <p style="margin-top: 10px;"><strong>Phone:</strong> +91 99069 99999</p>
+          <p><strong>WhatsApp:</strong> +91 99069 99999</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Ridwan DryFruits Pulwama. All Rights Reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#purity">Purity Testing</a>
+        <a href="#about">Privacy Policy</a>
+        <a href="#contact">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- --- JAVASCRIPT SCRIPTS --- -->
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
